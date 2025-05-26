@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'com.github.DziriiTaheni'
+group = 'com.github.DevStream2'
 version = '1.0.0'
 
 repositories {
@@ -69,8 +69,8 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             from components.java
-            groupId = 'com.github.DziriiTaheni'
-            artifactId = 'SDK_Analytics'
+            groupId = 'com.github.DevStream2'
+            artifactId = 'SDK'
             version = '1.0.0'
         }
     }
